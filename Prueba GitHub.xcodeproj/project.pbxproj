@@ -12,8 +12,6 @@
 		8A3D95201BDD55E70028E247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3D951E1BDD55E70028E247 /* Main.storyboard */; };
 		8A3D95221BDD55E90028E247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3D95211BDD55E90028E247 /* Assets.xcassets */; };
 		8A3D95251BDD55E90028E247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3D95231BDD55E90028E247 /* LaunchScreen.storyboard */; };
-		8A3D95301BDD55EA0028E247 /* Prueba_GitHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3D952F1BDD55EA0028E247 /* Prueba_GitHubTests.swift */; };
-		8A3D953B1BDD55EA0028E247 /* Prueba_GitHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3D953A1BDD55EA0028E247 /* Prueba_GitHubUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +32,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8A3D95171BDD55E50028E247 /* Prueba GitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prueba GitHub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3D95171BDD55E50028E247 /* Prueba GitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Prueba GitHub.app"; path = "/Users/jeremydailey/Desktop/TODO/Prueba GitHub/build/Debug-iphoneos/Prueba GitHub.app"; sourceTree = "<absolute>"; };
 		8A3D951A1BDD55E60028E247 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A3D951C1BDD55E60028E247 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8A3D951F1BDD55E70028E247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A3D95211BDD55E90028E247 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A3D95241BDD55E90028E247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A3D95261BDD55E90028E247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A3D952B1BDD55EA0028E247 /* Prueba GitHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prueba GitHubTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A3D952F1BDD55EA0028E247 /* Prueba_GitHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prueba_GitHubTests.swift; sourceTree = "<group>"; };
-		8A3D95311BDD55EA0028E247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A3D95361BDD55EA0028E247 /* Prueba GitHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prueba GitHubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A3D953A1BDD55EA0028E247 /* Prueba_GitHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prueba_GitHubUITests.swift; sourceTree = "<group>"; };
-		8A3D953C1BDD55EA0028E247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A3D952B1BDD55EA0028E247 /* Prueba GitHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Prueba GitHubTests.xctest"; path = "/Users/jeremydailey/Desktop/TODO/Prueba GitHub/build/Debug-iphoneos/Prueba GitHubTests.xctest"; sourceTree = "<absolute>"; };
+		8A3D95361BDD55EA0028E247 /* Prueba GitHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Prueba GitHubUITests.xctest"; path = "/Users/jeremydailey/Desktop/TODO/Prueba GitHub/build/Debug-iphoneos/Prueba GitHubUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,20 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				8A3D95191BDD55E50028E247 /* Prueba GitHub */,
-				8A3D952E1BDD55EA0028E247 /* Prueba GitHubTests */,
-				8A3D95391BDD55EA0028E247 /* Prueba GitHubUITests */,
-				8A3D95181BDD55E50028E247 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		8A3D95181BDD55E50028E247 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8A3D95171BDD55E50028E247 /* Prueba GitHub.app */,
-				8A3D952B1BDD55EA0028E247 /* Prueba GitHubTests.xctest */,
-				8A3D95361BDD55EA0028E247 /* Prueba GitHubUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		8A3D95191BDD55E50028E247 /* Prueba GitHub */ = {
@@ -105,24 +86,6 @@
 				8A3D95261BDD55E90028E247 /* Info.plist */,
 			);
 			path = "Prueba GitHub";
-			sourceTree = "<group>";
-		};
-		8A3D952E1BDD55EA0028E247 /* Prueba GitHubTests */ = {
-			isa = PBXGroup;
-			children = (
-				8A3D952F1BDD55EA0028E247 /* Prueba_GitHubTests.swift */,
-				8A3D95311BDD55EA0028E247 /* Info.plist */,
-			);
-			path = "Prueba GitHubTests";
-			sourceTree = "<group>";
-		};
-		8A3D95391BDD55EA0028E247 /* Prueba GitHubUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8A3D953A1BDD55EA0028E247 /* Prueba_GitHubUITests.swift */,
-				8A3D953C1BDD55EA0028E247 /* Info.plist */,
-			);
-			path = "Prueba GitHubUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +175,7 @@
 				Base,
 			);
 			mainGroup = 8A3D950E1BDD55E30028E247;
-			productRefGroup = 8A3D95181BDD55E50028E247 /* Products */;
+			productRefGroup = 8A3D950E1BDD55E30028E247;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -264,7 +227,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A3D95301BDD55EA0028E247 /* Prueba_GitHubTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +234,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A3D953B1BDD55EA0028E247 /* Prueba_GitHubUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
